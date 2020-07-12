@@ -1,0 +1,8 @@
+<!--pages/cart/cart.wxml-->
+<view class="map-container">
+  <map longitude="{{longitude}}" latitude="{{latitude}}" id="map" class="map" show-location="true" scale="17" controls="{{controls}}" bindcontroltap="centerTap"></map>
+</view>
+<view class="tabs">
+  <view class="tab tab-index" bindtap="goToPublish">发布信息</view>
+  <view class="tab">我的</view>
+</view>

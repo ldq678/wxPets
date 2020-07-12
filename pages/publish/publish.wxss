@@ -1,0 +1,29 @@
+/* pages/publissh/publish.wxss */
+.item{
+  display: flex;
+  line-height: 100rpx;
+  text-align: left;
+  border-bottom: 1px solid #aaa;
+  color: #888;
+  font-size: 32rpx;
+}
+.item .title{
+  width: 25%;
+  padding-left: 30rpx;
+}
+.item .type{
+  margin-right: 40rpx;
+}
+.item .ipt{
+  height: 100rpx;
+}
+.btn-publish{
+  margin: 30rpx;
+  font-size: 32rpx;
+  line-height: 86rpx;
+  background: #ff9700;
+  color: #fff;
+  text-align: center;
+  border: none;
+  border-radius: 12rpx;
+}

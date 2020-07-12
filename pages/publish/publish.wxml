@@ -1,0 +1,29 @@
+<!--pages/publissh/publish.wxml-->
+<view class="item">
+  <label class="title">我的地址</label>
+  <view class="info" bindtap="chooseAddress">{{address}}</view>
+</view>
+<view class="item">
+  <label class="title">信息类型</label>
+  <view class="info">
+    <radio-group>
+      <radio class="type" value="sell" checked="true">出售</radio>
+      <radio class="type" value="buy">求购</radio>
+    </radio-group>
+  </view>
+</view>
+<view class="item">
+  <label class="title">说明</label>
+  <view class="info">
+    <input class="ipt" placeholder="请填写您的具体要求"></input>
+  </view>
+</view>
+<view class="item">
+  <label class="title">联系方式</label>
+  <view class="info">
+    <input class="ipt" placeholder="请填写您的联系方式"></input>
+  </view>
+</view>
+<view class="btn-publish" bindtap="publishInfo"> 
+  发布信息
+</view>
